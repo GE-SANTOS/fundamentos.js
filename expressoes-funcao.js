@@ -11,10 +11,14 @@ minhaFuncao(param);
 const soma = function(num1, num2) { return num1 + num2 }
     //console.log(soma(1, 1));
 
-// diferença principal?
+// diferença principal: HOISTING
+// funções e  var são "listadas" no topo do arquivo
 
 console.log(apresentar());
 
 function apresentar() {
     return "Olá";
 }
+
+console.log(soma(1, 1));
+const aoma = function(num1, num2) { return num1 + num2 }
